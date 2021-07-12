@@ -1,0 +1,163 @@
+#cabeca_produtos
+{
+    height: 200px;  
+    background-color: rgb(223, 235, 246); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(20, 75, 142), white);
+	text-align: justify;
+	font-size: 20px;
+    padding: 5% 10% 0 10%;
+	 
+}
+
+.imagem_prod 
+{
+    height: 100%;
+    object-fit: fill;
+}
+
+#foto1_produtos
+{
+    height: 400px;
+	text-align: center;
+	object-fit: cover;
+	width: 100%;
+    padding: 0 0 10% 0;
+}
+#texto1_produtos
+{
+    height: 1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+#texto2_produtos
+{
+    height: 1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+
+#texto3_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto4_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto5_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto6_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto7_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto8_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto9_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto10_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+#texto11_produtos
+{
+    height:1200px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10% 5% 0 5%;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+
+@media(max-width: 1200px)
+{
+	#texto1_produtos{height: calc(100% - 80px);}
+	#texto2_produtos{height: calc(100% - 80px);}
+	#texto3_produtos{height: calc(100% - 80px);}
+	#texto4_produtos{height: calc(100% - 80px);}
+	#texto5_produtos{height: calc(100% - 80px);}
+	#texto6_produtos{height: calc(100% - 80px);}
+	#texto7_produtos{height: calc(100% - 80px);}
+	#texto8_produtos{height: calc(100% - 80px);}
+	#texto9_produtos{height: calc(100% - 80px);}
+	#texto10_produtos{height: calc(100% - 80px);}
+	#texto11_produtos{height: calc(100% - 80px);}
+}
+
+
+@media(max-width: 400px)
+{
+	.imagem_prod{height: calc(100%);width: 80%;}
+
+	#texto1_produtos{font-size: 15px;}
+	#texto2_produtos{font-size: 15px;}
+	#texto3_produtos{font-size: 15px;}
+	#texto4_produtos{font-size: 15px;}
+	#texto5_produtos{font-size: 15px;}
+	#texto6_produtos{font-size: 15px;}
+	#texto7_produtos{font-size: 15px;}
+	#texto8_produtos{font-size: 15px;}
+	#texto9_produtos{font-size: 15px;}
+	#texto10_produtos{font-size: 15px;}
+	#texto11_produtos{font-size: 15px;}
+
+	#foto1_produtos{height: 250px;}
+}

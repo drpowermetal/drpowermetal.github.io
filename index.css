@@ -1,0 +1,87 @@
+
+.imagem_ind 
+{
+    width: calc(90% );;
+}
+#text_ind 
+{
+    padding-right: 10%;
+}
+
+
+#index_cemmpe
+{
+    font-size: 30px;
+}
+
+#index
+{
+    height: 400px;  
+    background-color: rgb(223, 235, 246); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(20, 75, 142), white);
+	text-align: justify;
+	font-size: 20px;
+
+}
+
+#index1
+{
+    height: 400px;
+	padding: 0 10% 0 10%;
+	font-size: 18px;
+	text-align: left;
+}
+
+#index2
+{
+    height: 350px;
+	padding: 0 10% 0 10%;
+	font-size: 18px;
+	text-align: left;
+}
+
+
+@media(max-width:992px)
+{
+
+    .imagem_ind 
+    {
+        width: calc(30% );;
+    }
+    #text_ind 
+    {
+        padding-right: 0%;
+    }
+
+    #index1
+    {
+        height: 1000px;
+        text-align: center;
+    }
+
+    #index2
+    {
+        text-align: center;
+    }
+
+}
+
+@media(max-width:576px)
+{
+    .imagem_ind 
+{
+    width: calc(50% );;
+}
+
+    #index1
+    {
+        height: 1000px;
+    }
+
+
+    #index
+    {
+        font-size: 18px;
+    }
+
+}

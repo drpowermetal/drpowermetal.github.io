@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <head>
+
+        <title>
+            CEMMPE - Serviços Industriais
+        </title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>  
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>  
+
+        <link rel="stylesheet" href="cod.css">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="Empresa.css">
+        <link rel="stylesheet" href="jonas.css">
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+            
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="shortcut icon" href="IMAGENS/ICONE.ico" type="image/x-icon" />
+                            
+    </head>
+
+    <body>
+
+        <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5512991687359" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+
+        <a class="cta" href="email.html" >
+            <i class="fas fa-envelope-square"> &nbsp Solicitar orçamento</i>
+        </a>
+
+        
+        <header>
+            
+
+            <div  class = "row">
+                <div id = "jonas1" class = "col-sm-3 d-none d-sm-block">
+                    Como podemos ajudar? 
+                </div>  
+
+                <div  id = "jonas2" class = "col-sm-9 col-xs-12">
+                    <i class="fa fa-lg fa-phone">&nbsp</i>(12) 3302-3783 / (12) 99168-7359 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <i class="fa fa-envelope">&nbsp </i>contato@cemmpe.com.br &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+                    <a class= "linkedin" href="https://www.linkedin.com/company/cemmpe-servicos-industriais"><i class="fa fa-linkedin-square"></i></a> 
+                </div>
+            </div>
+
+
+
+
+
+        </header>
+
+        <div class="row" >
+        
+            <div id="logo" class = "col-lg-5 col-sm-12">
+                <a href="index.html">
+                    <img src="IMAGENS\S20.jpeg" alt="Logo" class ="center" />
+                </a>
+            </div>  
+
+            <div id="menu" class = "col-lg-7 col-sm-12">
+               
+                        <a href="index.html">HOME</a>
+                    
+                        <a href="Empresa.html">EMPRESA</a>
+                   
+                        <a href="cliente.html">CLIENTES</a>
+                    
+                        <a href="Serviços.html">SERVIÇOS</a>
+                    
+                        <a href="Contato.html">CONTATO</a>
+                   
+            </div>
+    
+                    
+    
+        </div>
+        
+        
+
+        <nav>
+
+            <!-- Slide Show -->
+            <section class="slides">
+                <img class ="gallery__img2" src="IMAGENS\S1.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S2.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S3.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S4.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S5.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S4.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S6.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S7.jpeg">
+                <img class ="gallery__img2" src="IMAGENS\S8.jpeg">
+                                
+            </section>
+
+            <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() 
+                    {
+                        var i;
+                        var x = document.getElementsByClassName("gallery__img2");
+
+                        for (i = 0; i < x.length; i++) 
+                        {
+                            x[i].style.display = "none";
+                        }
+
+                        myIndex++;
+                        
+                        if (myIndex > x.length) {myIndex = 1}
+                        x[myIndex-1].style.display = "block";
+                        setTimeout(carousel, 3000);
+                    }
+
+            </script>
+
+
+            
+           
+        </nav>
+
+        
+        <div class = "row" id = "index" style="padding: 5% 10% 0 10%; " >
+
+            <p id = "index_cemmpe" style="text-align: center; color:white; font-weight: bold;">CEMMPE</p><br><br>
+            
+            <p>Empresa dedicada em montagem industrial, conheça nossas especialidades. Ofereçemos serviços variados nas áreas de infraestrutura, manutenção, segurança do trabalho, montagem e elétrica.
+            </p>
+
+
+        </div>
+
+       
+        
+    
+                        <div class="row" id="index1">
+   
+                            <div class = "col-lg-2 col-sm-12">
+                                <img class ="imagem_ind" src="IMAGENS\i12.jpg">
+                            </div>
+            
+                            <div id ="text_ind" class = "col-lg-4 col-sm-12">
+                              <h4>TUBULAÇÕES INDUSTRIAIS</h4>
+                              <p>A CEMMPE é especializada em tubulações industriais para diversos tipos de fluídos. </p>
+                            </div>
+            
+   
+                            <div  class = "col-lg-2 col-sm-12">
+                                <img class ="imagem_ind" src="IMAGENS\i22.jpg">
+                            </div>
+            
+                            <div id ="text_ind" class = "col-lg-4 col-sm-12">
+                              <h4>CALDEIRARIA</h4>
+                              <p>Fabricação, corte, montagem, solda de estruturas metálicas, bases estruturais e gabinetes.</p>
+                            </div>
+            
+                        </div>  
+            
+                        <div id="index1" class="row">
+   
+                            <div  class = "col-lg-2 col-sm-12">
+                                <img class ="imagem_ind" src="IMAGENS\i32.jpg" >
+                            </div>
+            
+                            <div id ="text_ind" class = "col-lg-4 col-sm-12">
+                              <h4>INFRAESTRUTURA ELÉTRICA</h4>
+                              <p>Serviços para infraestrutura elétrica</p>
+                            </div>
+            
+                           
+                            <div class = "col-lg-2 col-sm-12">
+                                <img class ="imagem_ind" src="IMAGENS\i42.jpg">
+                            </div>
+            
+                            <div id ="text_ind" class = "col-lg-4 col-sm-12">
+                              <h4>INSTRUMENTAÇÃO E AUTOMAÇÃO</h4>
+                              <p>Equipe técnica preparada para realização de serviços de instrumentação industrial e automação.</p>
+                            </div>
+
+                        </div>
+
+
+                        <div id="index2" class="row">
+                            
+                            <div class = "col-lg-2 col-sm-12">
+                                <img class ="imagem_ind" src="IMAGENS\i52.jpg">
+                            </div>
+            
+                            <div id ="text_ind" class = "col-lg-4 col-sm-12">
+                              <h4>MANUTENÇÃO</h4>
+                              <p>Equipe com experiência em manutenção elétrica, mecânica e preditiva de equipamentos.</p>
+                            </div>
+            
+                        </div> 
+
+                
+        <footer>
+        
+            <div class="row"  >
+                    <div id = "footer_left"  class = "col-sm-7 col-xs-12">
+                        <h2>CEMMPE</h2><br/>
+                  
+                        <i class="fa fa-map-marker">&nbsp&nbsp</i>Rua Oscar Ferreira Pedrosa, 259, Sala 02, Residencial Jatobá,<br/>&nbsp&nbsp&nbsp São José dos Campos - São Paulo<br/><br/>
+                        <i class="fa fa-envelope">&nbsp&nbsp</i>contato@cemmpe.com.br<br/><br/>
+                        <i class="fa fa-lg fa-phone">&nbsp&nbsp</i>(12) 3302-3783<br/><br/>
+                        <i class="fa fa-lg fa-phone">&nbsp&nbsp</i>(12) 99168-7359<br/><br/>
+                  
+                    </div>
+
+                    <div id = "footer_right"  class = "col-sm-5 col-xs-12">
+                        <h2>Social</h2><br/>
+                        <a class= "linkedin" href="https://www.linkedin.com/company/cemmpe-servicos-industriais">
+                            <i class="fa fa-linkedin-square">&nbsp&nbsp</i>Linkedin 
+                        </a>
+                        
+                        <br/>
+                        <br/>
+                    </div>
+                                 
+           </div>
+   
+        </footer>
+
+
+    </body>
+
+</html>

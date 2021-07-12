@@ -1,0 +1,528 @@
+.whatsapp-link 
+{
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 200px;
+			right: 40px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+}
+ 
+.fa-whatsapp 
+{
+			margin-top: 16px;
+}
+
+.cta 
+{
+			position: fixed;
+			width: 240px;
+			height: 40px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25a2d3;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 20px;
+			box-shadow: 1px 1px 2px #888;
+			text-decoration:none;
+			display: block;
+			padding-bottom: 50px;
+}
+ 
+.fa-envelope-square
+{
+			margin-top: 16px;
+}
+
+
+
+#jonas1 
+{
+  
+  height: 40px;
+  padding:9px 0px 9px 20px;
+  background-color: rgb(20, 75, 142);
+  color:rgb(223, 235, 246);
+  align-items: center;
+  text-align: left;
+  
+}
+
+#formulario{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+#jonas1 
+{
+  
+  height: 40px;
+  padding:9px 0px 9px 20px;
+  background-color: rgb(20, 75, 142);
+  color:rgb(223, 235, 246);
+  align-items: center;
+  text-align: left;
+  
+}
+
+#jonas2 
+{
+  
+  height: 40px;
+  padding:9px 20px 9px 0px;
+  background-color: rgb(20, 75, 142);
+  color:rgb(223, 235, 246);
+  align-items: center;
+  text-align: right;
+  
+}
+
+#cabeca_servicos
+{
+    height: 400px;  
+    background-color: rgb(223, 235, 246); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(20, 75, 142), white);
+	text-align: justify;
+	font-size: 20px;
+
+}
+#foto1_servicos
+{
+    height: 200px;
+	text-align: center;
+}
+#texto1_servicos
+{
+    height: 800px;
+	padding: 0 10% 0 10%;
+	font-size: 20px;
+	text-align: left;
+}
+
+#foto2_servicos
+{
+    height: 200px;
+	text-align: center;
+}
+#texto2_servicos
+{
+    height: 800px;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 10% 0 10%;
+	
+}
+
+#foto3_servicos
+{
+    height: 200px;
+	font-size: 20px;
+	text-align: center;
+}
+#texto3_servicos
+{
+    height: 600px;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 10% 0 10%;
+	
+}
+
+#foto4_servicos
+{
+    height: 200px;
+	font-size: 20px;
+	text-align: center;
+}
+#texto4_servicos
+{
+    height: 600px;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 10% 0 10%;
+}
+
+#foto5_servicos
+{
+    height: 200px;
+	font-size: 20px;
+	text-align: center;
+}
+#texto5_servicos
+{
+    height: 1000px;
+	font-size: 20px;
+	text-align: left;
+	padding: 0 10% 0 10%;
+}
+
+#footer_right
+{
+	text-align: left;
+	background-color:  #333;
+	color: white;
+	padding-left: 2%;
+}
+
+#footer_left
+{
+	text-align: left;
+	background-color:  #333;
+	color: white;
+	padding-left: 10%;
+}
+
+@media(max-width:1300px)
+{
+
+	#texto1_servicos
+{
+    height: 1000px;
+	padding: 0 10% 0 10%;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#texto2_servicos
+{
+    height: 1000px;
+	font-size: 20px;
+	text-align: center;
+	padding: 0 10% 0 10%;
+	
+}
+
+#texto5_servicos
+{
+    height: 1100px;
+	
+	
+}
+
+
+}
+
+@media(max-width: 1110px)
+{
+
+	#texto1_servicos
+	{
+		height: 1100px;
+		padding: 0 10% 0 10%;
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	
+	#texto2_servicos
+	{
+		height: 1100px;
+		font-size: 20px;
+		text-align: center;
+		padding: 0 10% 0 10%;
+		
+	}
+
+	#texto3_servicos
+	{
+		height: 900px;
+		font-size: 20px;
+		text-align: center;
+		padding: 0 10% 0 10%;
+		
+	}
+
+
+	#jonas1  
+	{
+	  
+	  margin:0px;
+	  height: 35px;
+	  background: rgb(20, 75, 142);
+	  font-size: 12px;
+	}
+
+	#jonas2  
+	{
+	  
+	  margin:0px;
+	  height: 35px;
+	  background: rgb(20, 75, 142);
+	  font-size: 12px;
+	}
+}
+
+@media(max-width: 900px)
+  {
+	#texto1_servicos
+	{
+		height: 1300px;
+		
+	}
+	
+	
+	#texto2_servicos
+	{
+		height: 1300px;
+		
+		
+	}
+
+	#texto5_servicos
+	{
+		height: 1300px;
+		
+		
+	}
+
+	
+  }
+  @media(max-width: 858px)
+  {
+  
+	  #cabeca_servicos
+	  {
+		  height: 450px;  
+	  }
+  
+	  #texto5_servicos
+	  {
+		  height: 1400px;
+		  font-size: 20px;
+		  text-align: center;
+	  
+		  
+	  }
+	  #jonas1 
+	  {
+		
+		margin:0px;
+		height: 30px;
+		background: rgb(20, 75, 142);
+		font-size: 10px;
+	  }
+  
+	  #jonas2 
+	  {
+		
+		margin:0px;
+		height: 30px;
+		background: rgb(20, 75, 142);
+		font-size: 10px;
+	  }
+
+	  .cta
+	  { font-size: 15px;width: 200px;} 
+
+  }
+  
+@media(max-width: 768px)
+  {
+	#texto1_servicos
+	{
+		height: 1450px;
+		
+	}
+	
+	
+	#texto2_servicos
+	{
+		height: 1450px;
+		
+		
+	}
+
+	#texto5_servicos
+	{
+		height: 1450px;
+		
+		
+		
+	}
+	
+
+
+	#jonas1 
+	{
+	  
+	  margin:0px;
+	  height: 30px;
+	  background: rgb(20, 75, 142);
+	  font-size: 10px;
+	}
+
+	#jonas2 
+	{
+	  
+	  margin:0px;
+	  height: 30px;
+	  background: rgb(20, 75, 142);
+	  font-size: 10px;
+	}
+
+
+	
+
+    
+}
+
+
+@media(max-width: 576px)
+{
+		
+	#jonas2
+	{
+	  
+	  margin:0px;
+	  height: 30px;
+	  background: rgb(20, 75, 142);
+	  font-size: 8px;
+	  padding:9px 0px 0px 0px;
+	  text-align: center;
+	}
+
+	#cabeca_servicos
+{
+    height: 400px;  
+    background-color: rgb(223, 235, 246); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(20, 75, 142), white);
+	text-align: justify;
+	font-size: 15px;
+
+}
+#foto1_servicos
+{
+    height: 200px;
+	text-align: center;
+}
+#texto1_servicos
+{
+    height: 700px;
+	padding: 0 10% 0 10%;
+	font-size: 15px;
+	text-align: center;
+}
+
+#foto2_servicos
+{
+    height: 200px;
+	text-align: center;
+}
+#texto2_servicos
+{
+    height: 550px;
+	font-size: 15px;
+	text-align: center;
+	padding: 0 5% 0 5%;
+
+}
+
+#foto3_servicos
+{
+    height: 200px;
+	text-align: center;
+}
+#texto3_servicos
+{
+    height: 600px;
+	font-size: 15px;
+	text-align: center;
+	padding: 0 10% 0 10%;
+}
+
+#foto4_servicos
+{
+    height: 200px;
+	text-align: center;
+}
+#texto4_servicos
+{
+    height: 450px;
+	font-size: 15px;
+	text-align: center;
+	padding: 0 5% 0 5%;
+}
+#texto5_servicos
+{
+    height: 1100px;
+	font-size: 15px;
+	text-align: center;
+	margin: 0;
+	padding: 0 10% 0 10%;
+	
+}
+
+#foto5_servicos
+{
+    height: 200px;
+	text-align: center;
+}
+
+
+#aux_text3_servicos
+{
+	padding: 0 10% 0 10%;
+}
+
+#footer_right
+{
+	text-align: center;
+	padding: 0%;
+}
+
+#footer_left
+{
+	text-align: center;
+	padding: 0%;
+}
+
+
+}
+	
+@media(max-width: 496px)
+{
+
+	#texto5_servicos
+{
+    height: 1480px;
+	font-size: 15px;
+	
+}
+}
+
+@media(max-width: 300px)
+{
+
+	#cabeca_servicos
+	{
+		height: 480px;
+	
+	}
+	#texto1_servicos
+	{
+		height: 800px;
+	
+	}
+	
+	#jonas2
+	{
+		font-size: 6px;
+	}
+
+	#texto5_servicos
+{
+    height: 1600px;
+	
+	font-size: 15px;
+}
+
+}
